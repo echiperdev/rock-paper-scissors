@@ -48,3 +48,26 @@ function playRound(playerSelection, compSelection) {
     }
 }
 // console.log(playRound()) // Tests if playRound correctly prints to console (SUCCESS)
+
+// Runs five rounds of the game and tracks scores for each round
+function playGame() {
+    for (let i=0; i < 5; i++) { // Coutns to five
+        console.log(playRound());
+        console.log(`Your score: ${playerScore}`); // Prints player score
+        console.log(`Computer score: ${compScore}`); // Prints computer score
+    }
+    getWinner()
+}
+
+// Determines winner
+function getWinner() {
+    if (compScore > playerScore) {
+        console.log("\nComputer wins!");
+    } else if (compScore < playerScore) {
+        console.log("\nYou win!");
+    } else {
+        console.log("/nMajority draw!");
+    }
+}
+
+playGame();
