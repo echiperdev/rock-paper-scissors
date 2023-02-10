@@ -9,6 +9,7 @@ const weaponSelection = ["rock", "paper", "scissors"]; // Array of three possibl
 function getCompChoice() {
     return weaponSelection [Math.floor(Math.random() * 3)]; // Calls 'weaponSelection' constant and returns random item from stored array
 }
+// console.log(getCompChoice()); // Tests if function returns random results in console (SUCCESS)
 
 // Stores player input as lowercase string
 function getPlayerChoice() {
