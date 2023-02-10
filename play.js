@@ -34,16 +34,17 @@ function playRound(playerSelection, compSelection) {
         return "You win! It's a wrap!";
     } else if (playerSelection === "scissors" && compSelection === "rock") {
         compScore +=1;
-        return "Det is all I want. Smesh my apponents.";
+        return "You lose! Det is all I want. Smesh my apponents.";
     } else if (playerSelection === "paper" && compSelection === "scissors") {
         compScore +=1;
-        return "Blades 'n Shades, Baby!";
+        return "You lose! Blades 'n Shades, baby!";
     } else if (playerSelection === "rock" && compSelection === "paper") {
         compScore +=1;
-        return "Tell me, bratha, who give him belt?"
+        return "You lose! Tell me, bratha, who give him belt?"
     } else {
         playerScore +=1;
         compScore +=1;
         return "Fight!"
     }
 }
+// console.log(playRound()) // Tests if playRound correctly prints to console (SUCCESS)
