@@ -66,7 +66,7 @@ function getWinner() {
     } else if (compScore < playerScore) {
         console.log("\nYou win!");
     } else {
-        console.log("/nMajority draw!");
+        console.log("\nMajority draw!");
     }
 }
 
