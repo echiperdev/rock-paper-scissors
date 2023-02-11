@@ -19,7 +19,7 @@ The assignment requires the implementation a 5 round RPS game between a human (?
 ## **IMPLEMENTATION**
 
 **RPS1) SCORES.**
-Consequently, the first things to establish are a means to keep track of the score. In this sense, two variables (_'playerScore'_ and _'compScore'_) have been declared and assigned an initial value of _'0'_(integer, not string). This value changes as the game executes.
+Consequently, the first things to establish are a means to keep track of the score. In this sense, two variables (_'playerScore'_ and _'compScore'_) have been declared and assigned an initial value of _'0'_ (integer, not string). This value changes as the game executes.
 
 **RPS2) COMPUTER CHOICE**
 
@@ -29,7 +29,7 @@ Consequently, the first things to establish are a means to keep track of the sco
 
 **RPS2.3)** Functionality has been successfully tested by printing the stored results to the browser console.
 
-**RPS3) PLAYR CHOICE.** The player's choice is contained within a function (_'getPlayerChoice'_) without parameters. The expression stores the player's input into a variable (_'letPlayerAsk'_), and returns the input as a lowercase string.
+**RPS3) PLAYER CHOICE.** The player's choice is contained within a function (_'getPlayerChoice'_) without parameters. The expression stores the player's input into a variable (_'letPlayerAsk'_), and returns the input as a lowercase string.
 
 **RPS4) ROUNDS.** Once the choices have been stored, the next step is to ensure at least one round of the game executes correctly. For that, a function (_'playRound'_) has been declared, with two parameters ('compSelection' and 'playerSelection') declared within the scope of the function. These store the computer's and player's choices, and are later employed to determine the round's winner.
 
