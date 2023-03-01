@@ -161,6 +161,14 @@ body {
     height: 15rem;
 }
 
+/* Style game buttons container */
+.gameBtns {
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    gap: 1rem;
+}
+
 /* Style logo bar and arrange content */
 .logoBar {
     display: flex;
