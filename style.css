@@ -275,6 +275,11 @@ body {
 /* Style logo bar and arrange content */
 .logoBar {
     display: flex;
+    margin: 0 0 2rem 0;
+    padding: 2rem;
+    font: 1.5rem 'Geostar Fill', sans-serif;
+    color: rgb(2, 18, 24);
+    text-shadow: 0px 1px 3px rgb(77, 77, 77);
 }
 
 /* Style footer and arrange content*/
