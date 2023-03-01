@@ -45,6 +45,19 @@ function startDevice () {
 }
 startBtn.addEventListener('click', startDevice)
 
+// Change elements functionality and display after pressing the 'PLAY' button
+function startGame () {
+    rockBtn.disabled = false;
+    paperBtn.disabled = false;
+    scissorsBtn.disabled = false;
+    if (startScreen.className = "open") {
+        startScreen.className = "";
+        gameScreen.className = "open";
+    }
+    ledsOff ();
+}
+playBtn.addEventListener('click', startGame)
+
 // Store player and computer score
 let playerScore = 0;
 let compScore = 0;
