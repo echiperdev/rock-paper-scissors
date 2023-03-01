@@ -84,4 +84,34 @@ function playGame (e) {
     determineWinner ();
     displayArea ();
 }
+
+// The following four functions handle behavior on player victory
+function playerWin () { // Increases score and tells player they won
+    playerScore+=1;
+    statusMsg = `You win!`;
+}
+
+function playerRock () {
+    document.getElementById("playerAnim").src="./images/anim/rock.gif";
+    document.getElementById("playerAnim").alt="A smashing rock";
+    document.getElementById("compAnim").src="./images/static/compShears.png";
+    document.getElementById("compAnim").alt="A pair of scissors facing left";
+}
+
+function PlayerPaper () {
+    document.getElementById("playerAnim").src="./images/anim/playerPaper.gif";
+    document.getElementById("playerAnim").alt="A wondrous scroll";
+    document.getElementById("compAnim").src="./images/static/rock.png";
+    document.getElementById("compAnim").alt="A bland rock";
+}
+
+function playerScissors () {
+    document.getElementById("playerAnim").src="./images/anim/playerShearsWin.gif";
+    document.getElementById("playerAnim").alt="Shining scissors facing right";
+    document.getElementById("compAnim").src="./images/static/compPaper.png";
+    document.getElementById("compAnim").alt="Paper awaiting to be spoiled";
+}
+
+
+
 gameBtns.addEventListener("click", playGame);
