@@ -20,3 +20,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* Style game console and arrange elements */
+.roshamBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
