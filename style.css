@@ -154,6 +154,29 @@ body {
     color: rgb(155, 188, 15);
 }
 
+/* Set game screen default state parameters */
+#gameScreen {
+    display: none;
+}
+
+/* Set game screen open state parameters */
+#gameScreen.open {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 40%;
+    padding: 2rem;
+    background-color: rgb(15, 56, 15);
+    font: 2rem 'VT323', sans-serif;
+}
+
 /* Style button bar and arrange elements */
 .btnsBar {
     display: flex;
@@ -311,6 +334,7 @@ body {
     width: 90%;
 }
 /* Set utility button hover style */
+
 .uBtnCont > button:hover {
     box-shadow: rgba(255, 255, 255, .2) 0 3px 2px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
     transform: scale(1.05);
