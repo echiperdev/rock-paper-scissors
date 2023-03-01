@@ -79,7 +79,7 @@ function getCompChoice() {
 // Handles game functionality
 function playGame (e) {
     compChoice = getCompChoice();
-    playerChoice = e.targe.id;
+    playerChoice = e.target.id;
     playRound (compChoice, playerChoice);
     determineWinner ();
     displayArea ();
@@ -226,4 +226,13 @@ function displayArea () {
     finalResult.innerHTML = getWinner;
 }
 
+// Adds event listener to game buttons
 gameBtns.addEventListener("click", playGame);
+
+// Handle 'RESET' button bahavior
+function resetGame () {
+    ledsOff ();
+    endScreen.className = "";
+    reloadScreen.className = "open";
+}
+resetBtn.addEventListener('click', resetGame)
