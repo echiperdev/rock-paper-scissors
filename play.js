@@ -139,4 +139,20 @@ function compScissors () {
     document.getElementById("compAnim").alt="Gleaming scissorss facing left";
 }
 
+// Hanndle choice equivalence behavior
+function equalChoice () {
+    playerScore+=1;
+    compScore+=1;
+    if (playerChoice === "rock" && compChoice === "rock") {
+        document.getElementById("playerAnim").src="./images/static/rock.png";
+        document.getElementById("compAnim").src="./images/static/rock.png";
+    } else if (playerChoice === "paper" && compChoice === "paper") {
+        document.getElementById("playerAnim").src="./images/static/playerPaper.png";
+        document.getElementById("compAnim").src="./images/static/compPaper.png";
+    } else {
+        document.getElementById("playerAnim").src="./images/static/playerShears.png";
+        document.getElementById("compAnim").src="./images/static/compShears.png";
+    }
+}
+
 gameBtns.addEventListener("click", playGame);
