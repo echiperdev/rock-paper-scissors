@@ -265,6 +265,12 @@ body {
     gap: 1rem;
 }
 
+/* Align utility buttons */
+.uBtnCont:first-child,
+.uBtnCont:nth-child(3) {
+    align-self: flex-end;
+}
+
 /* Style logo bar and arrange content */
 .logoBar {
     display: flex;
