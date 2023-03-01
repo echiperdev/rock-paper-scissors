@@ -69,11 +69,9 @@ let compChoice = "";
 let statusMsg = "";
 let getWinner = "";
 
-// Presents weapon options for computer player
-const weaponSelection = ["rock", "paper", "scissors"]; // Array of three possible choices
-
 // Stores randomly selected computer player choice
 function getCompChoice() {
-    return weaponSelection [Math.floor(Math.random() * 3)]; // Calls 'weaponSelection' constant and returns random item from stored array
+    const wpnSelect = ["rock", "paper", "scissors"]; // Array of three possible choices
+    return wpnSelect [Math.floor(Math.random() * 3)]; // Calls 'weaponSelection' constant and returns random item from stored array
 }
 // console.log(getCompChoice()); // Tests if function returns random results in console (SUCCESS)
