@@ -57,9 +57,3 @@ function getCompChoice() {
     return weaponSelection [Math.floor(Math.random() * 3)]; // Calls 'weaponSelection' constant and returns random item from stored array
 }
 // console.log(getCompChoice()); // Tests if function returns random results in console (SUCCESS)
-
-// Stores player input as lowercase string
-function getPlayerChoice() {
-    let playerAsk = prompt("Choose thy weapon! Rock, Pepr or Scissors?"); // Asks for player input
-    return playerAsk.toLocaleLowerCase(); // Stores player input and returns it as lowercase string to parent function
-}
