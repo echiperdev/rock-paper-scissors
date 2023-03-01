@@ -219,4 +219,11 @@ function determineWinner () {
     }
 }
 
+// Assigns message display in DOM elements
+function displayArea () {
+    scoreBoard.innerHTML = `Player: ${playerScore} vs Computer: ${compScore}`;
+    rndMsg.innerHTML = statusMsg;
+    finalResult.innerHTML = getWinner;
+}
+
 gameBtns.addEventListener("click", playGame);
