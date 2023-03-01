@@ -230,6 +230,7 @@ body {
 
 /* Style paper button default and on hover */
 #paper {
+    align-self: flex-end;
     color: rgb(89, 114, 25);
 }
 
