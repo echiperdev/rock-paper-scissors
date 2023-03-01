@@ -34,6 +34,17 @@ function ledsOff () { // Resets animation
     });
 }
 
+// Change elements functionality and display after pressing the 'START' button
+function startDevice () {
+    if (idleScreen.style.display = "flex") {
+        idleScreen.className = "";
+        startScreen.className = "open";
+        ledsOn ();
+    }
+    playBtn.disabled = false;
+}
+startBtn.addEventListener('click', startDevice)
+
 // Store player and computer score
 let playerScore = 0;
 let compScore = 0;
