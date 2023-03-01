@@ -1,3 +1,17 @@
+// Store responsive elements in variables
+var leds = Array.from(document.getElementsByClassName("led"));
+var idleScreen = document.getElementById("idleScreen");
+var startScreen = document.getElementById("startScreen");
+var gameScreen = document.getElementById("gameScreen");
+var endScreen = document.getElementById("endScreen");
+var gameBtns = document.querySelector(".gameBtns");
+var rockBtn = document.getElementById("rock");
+var paperBtn = document.getElementById("paper");
+var scissorsBtn = document.getElementById("scissors");
+var startBtn = document.getElementById("start");
+var playBtn = document.getElementById("play");
+var resetBtn = document.getElementById("reset");
+
 // Store player and computer score
 let playerScore = 0;
 let compScore = 0;
