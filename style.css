@@ -4,3 +4,11 @@
     margin: 0;
     padding: 0;
 }
+
+/* Style bordy and anrrange elements */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 18, 24);
+}
