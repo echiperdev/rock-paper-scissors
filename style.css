@@ -272,6 +272,13 @@ body {
     align-self: flex-end;
 }
 
+/* Style utility button container text */
+.uBtnCont > p {
+    font: 1rem 'Geostar Fill', sans-serif;
+    color: rgb(2, 6, 26);
+    text-shadow: 0px 1px 2px rgb(0, 0, 0);
+}
+
 /* Style logo bar and arrange content */
 .logoBar {
     display: flex;
