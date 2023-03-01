@@ -219,6 +219,33 @@ body {
     align-self: flex-start;
 }
 
+/* Style rock button default and on hover */
+#rock {
+    color: rgb(155, 93, 74);
+}
+
+#rock:hover {
+    color: rgb(255, 60, 0);
+}
+
+/* Style paper button default and on hover */
+#paper {
+    color: rgb(89, 114, 25);
+}
+
+#paper:hover {
+    color: rgb(173, 255, 47);
+}
+
+/* Style scissors button default and on hover */
+#scissors {
+    color: rgb(72, 72, 211);
+}
+
+#scissors:hover {
+    color: rgb(0, 255, 255);
+}
+
 /* Style logo bar and arrange content */
 .logoBar {
     display: flex;
