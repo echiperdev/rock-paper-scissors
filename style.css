@@ -177,6 +177,13 @@ body {
     font: 2rem 'VT323', sans-serif;
 }
 
+/* Align round animation content position */
+#roundAnim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Style button bar and arrange elements */
 .btnsBar {
     display: flex;
