@@ -155,4 +155,29 @@ function equalChoice () {
     }
 }
 
+// Handles scoring criteria and display behavior per one round of the game
+function playRound (compChoice, playerChoice) {
+    if (playerChoice === "rock" && compChoice === "scissors") {
+        playerWin();
+        playerRock();
+    } else if (playerChoice === "paper" && compChoice === "rock") {
+        playerWin();
+        PlayerPaper();
+    } else if (playerChoice === "scissors" && compChoice === "paper") {
+        playerWin();
+        playerScissors();
+    } else if (compChoice === "rock" && playerChoice === "scissors") {
+        compWin();
+        compRock();
+    } else if (compChoice === "paper" && playerChoice === "rock") {
+        compWin();
+        compPaper();
+    } else if (compChoice === "scissors" && playerChoice === "paper") {
+        compWin();
+        compScissors();
+    } else {
+        equalChoice();
+    }
+}
+
 gameBtns.addEventListener("click", playGame);
