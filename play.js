@@ -203,4 +203,20 @@ function endGame () {
     resetAnim();
 }
 
+// Determines winner | <--- Replaces previous version's loop logic
+function determineWinner () {
+    if (playerScore === 5 || compScore === 5) {
+        if (playerScore > compScore) {
+            getWinner = "VICTORY!";
+            endGame ();
+        } else if (compScore < playerScore) {
+            getWinner = "VICTORY!"
+            endGame ();
+        } else {
+            getWinner = "The battle was inconclussive..."
+            endGame ();
+        }
+    }
+}
+
 gameBtns.addEventListener("click", playGame);
