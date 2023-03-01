@@ -180,4 +180,12 @@ function playRound (compChoice, playerChoice) {
     }
 }
 
+// Resets animations
+function resetAnim () {
+    document.getElementById("playerAnim").src="";
+    document.getElementById("compAnim").src="";
+    document.getElementById("playerAnim").alt="";
+    document.getElementById("compAnim").alt="";
+}
+
 gameBtns.addEventListener("click", playGame);
