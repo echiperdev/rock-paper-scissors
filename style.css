@@ -50,3 +50,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* Style button bar and arrange elements */
+.btnsBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
