@@ -170,6 +170,28 @@ body {
     gap: 1rem;
 }
 
+/* Set default game button style */
+.gameBtns > button {
+    background-color: rgb(10, 29, 28);
+    border: 0;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    outline: 0;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+}
+
 /* Style logo bar and arrange content */
 .logoBar {
     display: flex;
