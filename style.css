@@ -256,6 +256,15 @@ body {
     gap: 32px;
 }
 
+/* Set utility button container parameters */
+.uBtnCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
 /* Style logo bar and arrange content */
 .logoBar {
     display: flex;
