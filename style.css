@@ -36,6 +36,14 @@ body {
     align-items: center;
 }
 
+/* Set default led style */
+.led {
+    border: 1px solid rgb(58, 105, 103);
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    padding: 2px;
+}
+
 /* Style display bar and arrange content */
 .displayBar {
     display: flex;
