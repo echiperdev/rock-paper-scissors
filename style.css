@@ -213,6 +213,12 @@ body {
     transform: scale(1.05);
 }
 
+/* Align rock and scissors */
+#rock,
+#scissors {
+    align-self: flex-start;
+}
+
 /* Style logo bar and arrange content */
 .logoBar {
     display: flex;
