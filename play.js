@@ -19,6 +19,7 @@ window.onload = (e) => {
     scissorsBtn.disabled = true;
     playBtn.disabled = true;
     resetBtn.disabled = true;
+    idleScreen.className = "open";
 }
 
 // Store player and computer score
