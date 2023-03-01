@@ -21,6 +21,18 @@ window.onload = (e) => {
     resetBtn.disabled = true;
     idleScreen.className = "open";
 }
+// Two functions handling led behavior
+function ledsOn () { // Activates animation
+    leds.forEach(led => {
+        led.style.animation = "ledFlash 1s 3 ease";
+    });
+}
+
+function ledsOff () { // Resets animation
+    leds.forEach(led => {
+        led.style.animation = "";
+    });
+}
 
 // Store player and computer score
 let playerScore = 0;
