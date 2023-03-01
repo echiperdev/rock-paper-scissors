@@ -188,4 +188,19 @@ function resetAnim () {
     document.getElementById("compAnim").alt="";
 }
 
+// Handles end-game behavior
+function endGame () {
+    playerScore = 0;
+    compScore = 0;
+    statusMsg = "";
+    gameScreen.className = "";
+    endScreen.className = "open";
+    rockBtn.disabled=true;
+    paperBtn.disabled=true;
+    scissorsBtn.disabled=true;
+    resetBtn.disabled=false;
+    ledsOn();
+    resetAnim();
+}
+
 gameBtns.addEventListener("click", playGame);
