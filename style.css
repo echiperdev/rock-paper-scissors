@@ -12,3 +12,11 @@ body {
     align-items: center;
     background-color: rgb(2, 18, 24);
 }
+
+/* Style game console container and arrange content */
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
