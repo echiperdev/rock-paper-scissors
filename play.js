@@ -58,9 +58,12 @@ function startGame () {
 }
 playBtn.addEventListener('click', startGame)
 
-// Store player and computer score
+
+// Store scores and choices
 let playerScore = 0;
 let compScore = 0;
+let playerChoice = "";
+let compChoice = "";
 
 // Presents weapon options for computer player
 const weaponSelection = ["rock", "paper", "scissors"]; // Array of three possible choices
