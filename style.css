@@ -43,3 +43,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* Style display bar and arrange content */
+.displayBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
