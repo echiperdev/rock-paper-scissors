@@ -112,6 +112,31 @@ function playerScissors () {
     document.getElementById("compAnim").alt="Paper awaiting to be spoiled";
 }
 
+// The following four functions handle behavior on computer victory
+function compWin () { // Increases scors and tells player they lost
+    compScore+=1;
+    statusMsg = `You lose!`;
+}
 
+function compRock () {
+    document.getElementById("playerAnim").src="./images/static/playerShears.png";
+    document.getElementById("playerAnim").alt="Dull-bladed scissors facing right";
+    document.getElementById("compAnim").src="./images/anim/rock.gif";
+    document.getElementById("compAnim").alt="A fearsome rock";
+}
+
+function compPaper () {
+    document.getElementById("playerAnim").src="./images/static/rock.png";
+    document.getElementById("playerAnim").alt="A bland rock";
+    document.getElementById("compAnim").src="./images/anim/compPaper.gif";
+    document.getElementById("compAnim").alt="A slandering paper";
+}
+
+function compScissors () {
+    document.getElementById("playerAnim").src="./images/static/playerPaper.png";
+    document.getElementById("playerAnim").alt="Empty paper";
+    document.getElementById("compAnim").src="./images/anim/compShearsWin.gif";
+    document.getElementById("compAnim").alt="Gleaming scissorss facing left";
+}
 
 gameBtns.addEventListener("click", playGame);
