@@ -29,14 +29,6 @@ body {
     align-items: center;
 }
 
-/* Style footer and arrange content*/
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 /* Style led bar and arrange content */
 .ledBar {
     display: flex;
@@ -58,3 +50,17 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+/* Style logo bar and arrange content */
+.logoBar {
+    display: flex;
+}
+
+/* Style footer and arrange content*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
