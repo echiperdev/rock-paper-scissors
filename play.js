@@ -65,6 +65,10 @@ let compScore = 0;
 let playerChoice = "";
 let compChoice = "";
 
+// Store event messages
+let statusMsg = "";
+let getWinner = "";
+
 // Presents weapon options for computer player
 const weaponSelection = ["rock", "paper", "scissors"]; // Array of three possible choices
 
