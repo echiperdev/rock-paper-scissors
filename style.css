@@ -69,6 +69,19 @@ body {
     padding: 16px;
 }
 
+/* Style display area and arrange content */
+.displayArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: 400px;
+    position: relative;
+    background-color: rgb(50, 70, 55);
+    border-radius: 40%;
+}
+
 /* Style button bar and arrange elements */
 .btnsBar {
     display: flex;
