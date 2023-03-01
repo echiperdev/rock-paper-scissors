@@ -216,6 +216,27 @@ body {
     font: 3rem 'VT323', sans-serif;
 }
 
+/* Set reload screen default style */
+#reloadScreen {
+    display: none;
+}
+
+/* Set reload screen open state style */
+#reloadScreen.open {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 40%;
+    background-color: #0f380f;
+    padding: 2rem;
+    font: 2rem 'VT323', sans-serif;
+}
+
 /* Style button bar and arrange elements */
 .btnsBar {
     display: flex;
