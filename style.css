@@ -184,6 +184,15 @@ body {
     align-items: center;
 }
 
+/* Set status message display style */
+#rndMsg,
+#scoreBoard,
+#finalResult {
+    height: 60px;
+    text-align: center;
+    color: rgb(155, 188, 15);
+}
+
 /* Style button bar and arrange elements */
 .btnsBar {
     display: flex;
