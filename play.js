@@ -75,3 +75,13 @@ function getCompChoice() {
     return wpnSelect [Math.floor(Math.random() * 3)]; // Calls 'weaponSelection' constant and returns random item from stored array
 }
 // console.log(getCompChoice()); // Tests if function returns random results in console (SUCCESS)
+
+// Handles game functionality
+function playGame (e) {
+    compChoice = getCompChoice();
+    playerChoice = e.targe.id;
+    playRound (compChoice, playerChoice);
+    determineWinner ();
+    displayArea ();
+}
+gameBtns.addEventListener("click", playGame);
