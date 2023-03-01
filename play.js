@@ -12,6 +12,15 @@ var startBtn = document.getElementById("start");
 var playBtn = document.getElementById("play");
 var resetBtn = document.getElementById("reset");
 
+// Establish elements functionality and display on page load
+window.onload = (e) => {
+    rockBtn.disabled = true;
+    paperBtn.disabled = true;
+    scissorsBtn.disabled = true;
+    playBtn.disabled = true;
+    resetBtn.disabled = true;
+}
+
 // Store player and computer score
 let playerScore = 0;
 let compScore = 0;
