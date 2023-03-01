@@ -50,6 +50,13 @@ body {
     padding: 2px;
 }
 
+/* Set led flash animation keyframes */
+@keyframes ledFlash {
+    0% {background-color: black;}
+    50% {background-color: white;}
+    100% {background-color: black;}
+}
+
 /* Style display bar and arrange content */
 .displayBar {
     display: flex;
@@ -96,7 +103,7 @@ body {
     top: 0;
     left: 0;
     border-radius: 40%;
-    background-color: #1f221f;
+    background-color: rgb(31, 34, 31);
 }
 
 /* Style button bar and arrange elements */
