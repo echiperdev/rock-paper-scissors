@@ -442,9 +442,9 @@ a > img {
 @media screen and (max-width: 544px) {
 
     .roshamBox {
-        margin: 0;
+        margin-top: 1rem;
         width: 100vw;
-        height: 100vh;
+        height: 90vh;
     }
 
     .ledBar {
