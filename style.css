@@ -455,6 +455,18 @@ a > img {
         padding: 0;
     }
 
+    #startScreen.open {
+        padding: 1rem;
+    }
+
+    #loadAnim {
+        max-width: 25vw;
+    }
+
+    #loadAnim > img {
+        max-width: 100%;
+    }
+
     .screenBorder {
         margin: 1rem 0;
         padding: auto;
