@@ -208,10 +208,10 @@ function determineWinner () {
         if (playerScore > compScore) {
             getWinner = "VICTORY!";
             endGame ();
-        } else if (compScore < playerScore) {
-            getWinner = "VICTORY!"
+        } else if (compScore > playerScore) {
+            getWinner = "DEFEAT!"
             endGame ();
-        } else {
+        } else if (playerScore === compScore) {
             getWinner = "The battle was inconclussive..."
             endGame ();
         }
