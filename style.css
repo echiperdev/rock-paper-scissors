@@ -464,4 +464,9 @@ a > img {
         max-width: 350px;
         min-height: 360px;
     }
+
+    .btnsBar {
+        height: auto;
+        gap: 1rem;
+    }
 }
