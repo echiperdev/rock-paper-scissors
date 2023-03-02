@@ -475,6 +475,12 @@ a > img {
         height: auto;
     }
 
+    .gameBtns > button {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+    }
+
     .utilityBtns {
         justify-content: center;
         align-items: center;
