@@ -469,4 +469,9 @@ a > img {
         height: auto;
         gap: 1rem;
     }
+
+    .gameBtns {
+        justify-content: center;
+        height: auto;
+    }
 }
