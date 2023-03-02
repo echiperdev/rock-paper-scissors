@@ -455,6 +455,16 @@ a > img {
         padding: 0;
     }
 
+    .screenBorder {
+        margin: 1rem 0;
+        padding: auto;
+    }
+
+    .displayArea {
+        max-width: 75vw;
+        min-height: 35vh;
+    }
+
     #startScreen.open {
         padding: 1rem;
     }
@@ -476,14 +486,8 @@ a > img {
         max-width: 100%;
     }
 
-    .screenBorder {
-        margin: 1rem 0;
-        padding: auto;
-    }
-
-    .displayArea {
-        max-width: 75vw;
-        min-height: 35vh;
+    #endScreen.open {
+        font-size: 2rem;
     }
 
     .btnsBar {
