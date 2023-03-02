@@ -478,6 +478,7 @@ a > img {
     .utilityBtns {
         justify-content: center;
         align-items: center;
+        gap: 0.65rem;
     }
 
     .uBtnCont:first-child,
