@@ -474,4 +474,9 @@ a > img {
         justify-content: center;
         height: auto;
     }
+
+    .utilityBtns {
+        justify-content: center;
+        align-items: center;
+    }
 }
