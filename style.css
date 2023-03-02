@@ -440,4 +440,11 @@ a > img {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 544px) {
+
+    .roshamBox {
+        margin: 0;
+        border-radius: 0;
+        width: 100vw;
+        height: 100vh;
+    }
 }
