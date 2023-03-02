@@ -454,4 +454,9 @@ a > img {
     .displayBar {
         padding: 0;
     }
+
+    .screenBorder {
+        margin: 1rem 0;
+        padding: auto;
+    }
 }
