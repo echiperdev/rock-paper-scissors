@@ -240,7 +240,8 @@ body {
 #reloadImg > img {
     width: 320px;
     height: 120px;
-    border-radius: 40%;
+    object-fit: cover;
+    border-radius: inherit;
 }
 
 /* Set reload message parameters */
@@ -488,6 +489,18 @@ a > img {
 
     #endScreen.open {
         font-size: 2rem;
+    }
+
+    #reloadScreen.open {
+        padding: 0;
+    }
+
+    #reloadImg {
+        max-width: 25vw;
+    }
+
+    #reloadImg > img {
+        max-width: 100%;
     }
 
     .btnsBar {
