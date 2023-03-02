@@ -461,8 +461,8 @@ a > img {
     }
 
     .displayArea {
-        max-width: 350px;
-        min-height: 360px;
+        max-width: 75vw;
+        min-height: 35vh;
     }
 
     .btnsBar {
