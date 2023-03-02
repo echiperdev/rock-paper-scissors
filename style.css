@@ -479,4 +479,9 @@ a > img {
         justify-content: center;
         align-items: center;
     }
+
+    .uBtnCont:first-child,
+    .uBtnCont:nth-child(3) {
+        align-self: center;
+    }
 }
