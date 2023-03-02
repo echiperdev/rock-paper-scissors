@@ -481,6 +481,10 @@ a > img {
         gap: 0.65rem;
     }
 
+    .uBtnCont {
+        gap: 0.5rem;
+    }
+
     .uBtnCont:first-child,
     .uBtnCont:nth-child(3) {
         align-self: center;
@@ -489,7 +493,7 @@ a > img {
     .uBtnCont > p {
         font-size: 0.65rem;
     }
-    
+
     .logoBar {
         margin: 0;
         padding: 0.5rem;
