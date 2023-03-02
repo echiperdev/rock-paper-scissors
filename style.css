@@ -486,6 +486,10 @@ a > img {
         align-self: center;
     }
 
+    .uBtnCont > p {
+        font-size: 0.65rem;
+    }
+    
     .logoBar {
         margin: 0;
         padding: 0.5rem;
