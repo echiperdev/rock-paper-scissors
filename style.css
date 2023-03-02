@@ -459,4 +459,9 @@ a > img {
         margin: 1rem 0;
         padding: auto;
     }
+
+    .displayArea {
+        max-width: 350px;
+        min-height: 360px;
+    }
 }
