@@ -484,4 +484,9 @@ a > img {
     .uBtnCont:nth-child(3) {
         align-self: center;
     }
+
+    .logoBar {
+        margin: 0;
+        padding: 0.5rem;
+    }
 }
