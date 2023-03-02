@@ -467,6 +467,15 @@ a > img {
         max-width: 100%;
     }
 
+    #roundAnim {
+        max-width: 25vw;
+    }
+
+    #playerAnim,
+    #compAnim {
+        max-width: 100%;
+    }
+
     .screenBorder {
         margin: 1rem 0;
         padding: auto;
