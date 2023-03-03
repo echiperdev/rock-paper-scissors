@@ -142,13 +142,14 @@ function compScissors () {
 function equalChoice () {
     playerScore+=1;
     compScore+=1;
+    statusMsg = "This round's a draw..."
     if (playerChoice === "rock" && compChoice === "rock") {
         document.getElementById("playerAnim").src="./images/static/rock.png";
         document.getElementById("compAnim").src="./images/static/rock.png";
     } else if (playerChoice === "paper" && compChoice === "paper") {
         document.getElementById("playerAnim").src="./images/static/playerPaper.png";
         document.getElementById("compAnim").src="./images/static/compPaper.png";
-    } else {
+    } else if (playerChoice === "scissors" && compChoice === "scissors") {
         document.getElementById("playerAnim").src="./images/static/playerShears.png";
         document.getElementById("compAnim").src="./images/static/compShears.png";
     }
@@ -212,7 +213,7 @@ function determineWinner () {
             getWinner = "DEFEAT!"
             endGame ();
         } else if (playerScore === compScore) {
-            getWinner = "The battle was inconclussive..."
+            getWinner = "DRAW!"
             endGame ();
         }
     }
